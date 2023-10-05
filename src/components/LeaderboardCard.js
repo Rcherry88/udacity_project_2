@@ -14,6 +14,9 @@ const LeaderboardCard = (leaderboardcardProps) => {
           {leaderboardcardProps.name}
         </Typography>
         <div>
+          Name: {leaderboardcardProps.user.name}
+        </div>
+        <div>
           Answered Questions:{" "}
           {Object.keys(leaderboardcardProps.user.answers).length}
         </div>
