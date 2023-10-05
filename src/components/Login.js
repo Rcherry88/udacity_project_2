@@ -1,13 +1,11 @@
 import React from 'react';
 import { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { Container, Grid, FormControl, Select, MenuItem, Button } from '@material-ui/core';
+import { Container, Grid, FormControl, Select, MenuItem, Button, Card, CardHeader, CardContent} from '@mui/material';
 import { setCurrentUser } from '../actions/authedUser';
 import { Auth } from '../authentication/auth';
 import { Redirect, useLocation } from 'react-router-dom';
-import Card from '@material-ui/core/Card';
-import CardHeader from '@material-ui/core/CardHeader';
-import CardContent from '@material-ui/core/CardContent';
+
 
 const Login = () => {
   const users = useSelector((state) => Object.keys(state.users));

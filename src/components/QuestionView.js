@@ -7,7 +7,7 @@ import {
   Card,
   CardContent,
   CardMedia,
-} from "@material-ui/core";
+} from "@mui/material";
 
 const QuestionView = (questionviewProps) => {
 

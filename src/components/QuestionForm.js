@@ -10,7 +10,7 @@ import {
   TextField,
   Box,
   Grid,
-} from "@material-ui/core";
+} from "@mui/material";
 
 const QuestionInput = (questioninputProps) => {
   const [firstAnswer, setfirstAnswer] = useState(null);

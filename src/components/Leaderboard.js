@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import NavigationBar from "./NavigationBar";
-import { Box, Grid } from "@material-ui/core";
+import { Box, Grid } from "@mui/material";
 import LeaderboardCard from "./LeaderboardCard";
 
 const Leaderboard = (leaderboardProps) => {

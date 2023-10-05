@@ -6,7 +6,7 @@ import {
   CardContent,
   Typography,
   Button,
-} from "@material-ui/core";
+} from "@mui/material";
 import { Link } from "react-router-dom";
 
 const Poll = (pollProps) => {

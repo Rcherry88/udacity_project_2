@@ -11,10 +11,10 @@ import {
   FormControl,
   FormControlLabel,
   RadioGroup,
-} from "@material-ui/core";
+  Typography,
+} from "@mui/material";
 import QuestionView from "./QuestionView";
 import NotFound from "./404Page"
-import { Typography } from "@mui/material";
 
 const PollView = (pollviewProps) => {
   const [selectedValue, setSelectedValue] = useState(null);

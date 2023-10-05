@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { connect } from "react-redux";
 import NavigationBar from "./NavigationBar";
 import Poll from "./Poll";
-import { Tabs, Tab, Typography, Box } from "@material-ui/core";
+import { Tabs, Tab, Typography, Box } from "@mui/material";
 import PropTypes from "prop-types";
 
 const Home = (homeProps) => {
